@@ -168,7 +168,23 @@ class LiveWallpaper(QMainWindow):
 if __name__ == "__main__":
     # 웹 엔진 구동을 위한 속성 추가 설정
     os.environ["QTWEBENGINE_DISABLE_SANDBOX"] = "1"
-    
+
+
+
+
+
+
+
+
+    cd Desktop
+
+
+
+
+
+
+
+    python live_wallpaper.py
     app = QApplication(sys.argv)
     app.setQuitOnLastWindowClosed(False)
     wallpaper = LiveWallpaper()
